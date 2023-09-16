@@ -1,0 +1,41 @@
+.grid-container .my-card {
+  background-color: #2a2a2a;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  padding: 3px 3px 10px 3px;
+}
+.grid-container .my-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.grid-container .my-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.grid-container .my-card .card-text-div {
+  padding: 8px;
+}
+.grid-container {
+  margin-top: 20px;
+  column-gap: 10px;
+  row-gap: 20px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+}
+
+.grid-container .my-card button:hover {
+  background-color: #383838;
+}
+.grid-container .my-card button {
+  margin-top: 15px;
+  width: calc(100% - 20px);
+  height: 35px;
+  border: solid 1px #9a9a9a;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+}

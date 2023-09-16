@@ -1,0 +1,80 @@
+.form-parent-window {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.form-parent-window form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  padding: 50px;
+  background-color: #202020;
+  border-radius: 5px;
+}
+.input-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form-parent-window form input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  background-color: transparent;
+  border: solid 1px #9a9a9a;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px;
+}
+.form-parent-window h1 {
+  margin-bottom: 30px;
+}
+.form-parent-window button {
+  margin-top: 40px;
+  width: 100%;
+  height: 50px;
+  background-color: #0078f2;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.form-parent-window button:hover {
+  background-color: #288ae8;
+  border: none;
+}
+
+.form-parent-window form input[type="file"]::file-selector-button,
+.form-parent-window form select {
+  color: #fff;
+  background-color: #202020;
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 9px;
+  font-family: poppins;
+}
+
+.form-parent-window form input[type="file"]::file-selector-button:hover {
+  background-color: #383838;
+}
+.form-parent-window form input,
+select,
+.radioinput_wrapper {
+  margin-bottom: 10px;
+}
+.form-parent-window form .input-groups-wrapper {
+  display: flex;
+}
+.form-parent-window form .input-groups-wrapper-grid {
+  display: flex;
+  gap: 14px;
+}
+.form-parent-window form .input-wrapper {
+  margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+.dialogbox_window {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dialogbox_wrapper {
+  padding: 5px;
+  width: 450px;
+  background-color: #202020;
+  border-radius: 5px;
+  color: #fff;
+}
+.dialogbox_window .header_image {
+  width: 100%;
+  border-radius: 5px;
+}
+.dialogbox_wrapper .btn-primary {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #0078f2;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.dialogbox_window .btn-primary:hover {
+  background-color: #288ae8;
+}
+.dialogbox_window .dialogbox_content {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.dialogbox_wrapper .datepicker_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.dialogbox_content p {
+  margin-top: 5px;
+}
